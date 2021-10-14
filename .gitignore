@@ -1,0 +1,83 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+App5/App5/bin/Debug/AppX/js/default.js
+App5/App5.v12.suo
+App5/App5.v12.suo
+App5/App5.v12.suo
+App5/App5.v12.suo
+App5/App5/bin/Debug/App5.build.appxrecipe
+App5/App5/bin/Debug/AppX/vs.appxrecipe
+App5/App5/bin/Debug/AppX/vs.appxrecipe
+App5/App5/bld/Debug/App5.jsproj.FileListAbsolute.txt
+App5/App5/bld/Debug/pri.resfiles
+App5/App5/bld/Debug/pri.resfiles.intermediate
+App5/App5/bld/Debug/ProjectArchitectures.txt
+App5/App5/App5.jsproj.user
+App5/App5/App5.jsproj.user
+App5/App5/bin/Debug/App5.build.appxrecipe
+App5/App5/bin/Debug/AppX/vs.appxrecipe
+App5/App5/bin/Debug/App5.build.appxrecipe
+App5/App5.v12.suo
+App5/App5/bin/Debug/App5.build.appxrecipe
+App5/App5/bin/Debug/App5.build.appxrecipe
+App5/App5/bin/Debug/AppX/AppxManifest.xml
+App5/App5/bin/Debug/AppX/microsoft.system.package.metadata/S-1-5-21-4035513378-3425297398-2847394764-1001.pckgdep
+App5/App5/bin/Debug/AppX/vs.appxrecipe
+App5/App5/bin/Debug/AppxManifest.xml
+App5/App5/bld/Debug/pri.resfiles
+App5/App5/bld/Debug/pri.resfiles.intermediate
+App5/App5/bld/Debug/ProjectArchitectures.txt
+App5/App5/bin/Debug/AppX/AppxManifest.xml
+App5/App5/pages/flav_sel/flav_sel.js
+App5/App5/bin/Debug/App5.build.appxrecipe
+App5/App5/bin/x64/Debug/App5.build.appxrecipe
+App5/App5/bld/x64/Debug/pri.resfiles
+App5/App5/bld/x64/Debug/ProjectArchitectures.txt
+App5/App5/bld/Debug/ProjectArchitectures.txt
+App5/App5/bld/Debug/pri.resfiles.intermediate
+App5/App5/bld/Debug/pri.resfiles
+App5/App5/bin/Debug/AppX/vs.appxrecipe
+App5/App5/bin/Debug/App5.build.appxrecipe
+App5/App5/bin/Debug/AppX/vs.appxrecipe
+App5/App5/bld/Debug/ProjectArchitectures.txt
+App5/App5/bld/Debug/pri.resfiles.intermediate
+App5/App5/bld/Debug/pri.resfiles
+App5/App5/bin/Debug/App5.build.appxrecipe
+App5/App5/App5.jsproj.user
+App5/App5.v12.suo
+*.sql

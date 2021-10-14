@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>launch_page</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <link href="launch_page.css" rel="stylesheet" />
+    <script src="launch_page.js"></script>
+</head>
+<body>
+    <div class="launch_page fragment">
+        <!-- <header aria-label="Header content" role="banner">
+             <button data-win-control="WinJS.UI.BackButton"></button>
+             <h1 class="titlearea win-type-ellipsis">
+                 <span class="pagetitle">Welcome to launch_page</span>
+             </h1>
+         </header>-->
+        <p id="explain">Welcome to the ThinkitDrinkit Consumer Experience.</p>
+        <p hidden="" id="thewordsforcurrentprice">You Current Total is: $<span hidden="" id="youcurrentprice"></span></p>
+
+        <section id="launch_sel" aria-label="Main content" role="main">
+
+            <section id="learn_more" class="the_float" onclick="WinJS.Navigation.navigate('pages/info_home/info_home.html'), cat_clicked.clicked2(document.getElementById('learn_more_title').textContent);">
+                <img src="https://thinkitdrinkit.blob.core.windows.net/thinkitdrinkitappimages/withbanner/learnappcurrent.png" />
+                <div class="underline_div">
+                    <a id="learn_more_title">Learn</a>
+                </div>
+            </section>
+
+            <section id="supl_sport2" class="the_float" onclick="cat_clicked.passon(event.srcElement.innerText), cat_clicked.next_page();">
+                <img id="make_sport_drink_img2" src="https://thinkitdrinkit.blob.core.windows.net/thinkitdrinkitappimages/withbanner/sportappcurrent.png" />
+                <div class="underline_div">
+                    <a id="supl_sport_name2">General Fitness</a>
+                </div>
+            </section>
+
+            <section id="supl_sport" class="the_float" onclick="cat_clicked.passon(event.srcElement.innerText), cat_clicked.next_page();">
+                <img id="make_sport_drink_img" src="https://thinkitdrinkit.blob.core.windows.net/thinkitdrinkitappimages/withbanner/sportappcurrent.png" />
+                <div class="underline_div">
+                <a id="supl_sport_name">Specific Sports</a>
+                </div>
+            </section>
+
+            <section id="make_drink" class="the_float" onclick="cat_clicked.passon(event.srcElement.innerText), cat_clicked.next_page();">
+                <img id="make_drink_img" src="https://thinkitdrinkit.blob.core.windows.net/thinkitdrinkitappimages/withbanner/functionalappcurrent.png" />
+                <div class="underline_div">
+                    <a>Energy</a>
+                </div>
+            </section>
+
+            <section id="make_drink2" class="the_float" onclick="cat_clicked.passon(event.srcElement.innerText), cat_clicked.next_page();">
+                <img id="make_drink_img2" src="https://thinkitdrinkit.blob.core.windows.net/thinkitdrinkitappimages/withbanner/proteinappcurrent.png" />
+                <div class="underline_div">
+                    <a>Protein</a>
+                </div>
+            </section>
+
+            <section id="supl_sport3" class="the_float" onclick="cat_clicked.passon(event.srcElement.innerText), cat_clicked.next_page();">
+                <img id="make_sport_drink_img3" src="https://thinkitdrinkit.blob.core.windows.net/thinkitdrinkitappimages/withbanner/sportappcurrent.png" />
+                <div class="underline_div">
+                    <a id="supl_sport_name3">Weight Management</a>
+                </div>
+            </section>
+
+            <section id="supl_sport4" class="the_float" onclick="cat_clicked.passon(event.srcElement.innerText), cat_clicked.next_page();">
+                <img id="make_sport_drink_img4" src="https://thinkitdrinkit.blob.core.windows.net/thinkitdrinkitappimages/withbanner/sportappcurrent.png" />
+                <div class="underline_div">
+                    <a id="supl_sport_name4">Lifestyle Diets</a>
+                </div>
+            </section>
+
+            <section id="supl_sport5" class="the_float" onclick="cat_clicked.passon(event.srcElement.innerText), cat_clicked.next_page();">
+                <img id="make_sport_drink_img5" src="https://thinkitdrinkit.blob.core.windows.net/thinkitdrinkitappimages/withbanner/sportappcurrent.png" />
+                <div class="underline_div">
+                    <a id="supl_sport_name5">Wellness</a>
+                </div>
+            </section>
+
+
+            <section id="nutrigenetics" class="the_float" onclick="cat_clicked.passon(event.srcElement.innerText), cat_clicked.next_page();">
+                <img id="nutrigenetics_img" src="https://thinkitdrinkit.blob.core.windows.net/thinkitdrinkitappimages/withbanner/nutrigeneticappcurrent.png" />
+                <div class="underline_div">
+                    <a>Purchase A Nutrigenetic Test</a>
+                </div>            
+            </section>
+
+            <!--<section id="sign_up" class="the_float" onclick="WinJS.Navigation.navigate('pages/signup/signup.html');">
+                <img src="https://thinkitdrinkit.blob.core.windows.net/thinkitdrinkitappimages/sign_up.jpg" />
+                <h2>Join Us</h2>
+            </section>-->
+
+            <section id="intro_text_section">
+                <p id="intro_text">Welcome to ThinkitDrinkit, the first interactive retail environment where you can customize nutrition based on sport, goals or lifestyle. On the following screens you'll be able to mix and match functions and flavors using next generation, clinically validated ingredients. Each choice you make will personalize your commitment to better health and optimized performance.  When you checkout you will receive a 14 serving supply of your powdered formula.  In the future you may login to access your history, share your formula with others, or reorder with the click of a button.</p>
+            </section>
+
+        </section>
+        <footer id="main_footer">
+            <h1 id="footer_company_name"></h1><!-- this is being styled in the default.js folder -->
+        </footer>
+    </div>
+</body>
+</html>
